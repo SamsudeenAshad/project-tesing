@@ -36,3 +36,30 @@ public class LoginTest {
         driver.quit();
     }
 }
+
+
+// import org.openqa.selenium.WebDriver;
+// import org.openqa.selenium.chrome.ChromeDriver;
+
+// public class ChromeDriverExample {
+//     public static void main(String[] args) {
+//         // // Set the path to the ChromeDriver executable if it's not in your PATH
+//         // System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Downloads\\chromedriver_win32\\chromedriver.exe"); // Update this path if necessary
+
+//         // // Create a new instance of the Chrome driver
+//         // WebDriver driver = new ChromeDriver();
+
+//         System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Downloads\\chromedriver_win32\\chromedriver.exe");
+//         WebDriver driver = new ChromeDriver();
+
+
+//         // Navigate to a webpage
+//         driver.get("http://www.example.com");
+
+//         // Print the title of the page
+//         System.out.println("Page title is: " + driver.getTitle());
+
+//         // Close the browser
+//         driver.quit();
+//     }
+// }
