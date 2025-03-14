@@ -1,3 +1,5 @@
+//
+
 package com.uiauto.demo;
 
 import org.openqa.selenium.By;
@@ -6,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.*;
 import org.testng.annotations.Test;
 
+
+// user name and password
 public class LoginTest {
     private String userNameStr = "standard_user";
     private String passwordStr = "secret_sauce";
