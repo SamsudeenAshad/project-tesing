@@ -26,9 +26,15 @@ public class LoginTestXPath {
     // testing with parth difineing 
     @Test
     public void validLoginTestWithoutPageObjectModel() {
-        WebElement userName = driver.findElement(By.xpath("//input[@id='user-name']"));
-        WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
+
+        WebElement userName = driver.findElement(By.id("user-name"));
+        WebElement password = driver.findElement(By.id("password"));
+
+        // xparth reference to theselected element call 
         WebElement submitButton = driver.findElement(By.xpath("//input[@id='login-button']"));
+
+
+
 
         userName.sendKeys(USERNAME);
         password.sendKeys(PASSWORD);
